@@ -1,0 +1,17 @@
+|ringsManager
+clk => output~reg0.CLK
+output <= output~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ringsManager|oscilatorRing:\genRings:0:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ringsManager|oscilatorRing:\genRings:1:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ringsManager|oscilatorRing:\genRings:2:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
