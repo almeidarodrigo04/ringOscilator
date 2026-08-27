@@ -1,5 +1,5 @@
 Fitter report for oscilatorRing
-Wed Aug 26 17:47:44 2026
+Thu Aug 27 11:17:58 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 
 
@@ -59,7 +59,7 @@ on the Quartus Prime software download page.
 +-----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                    ;
 +---------------------------------+-------------------------------------------------+
-; Fitter Status                   ; Successful - Wed Aug 26 17:47:44 2026           ;
+; Fitter Status                   ; Successful - Thu Aug 27 11:17:58 2026           ;
 ; Quartus Prime Version           ; 25.1std.0 Build 1129 10/21/2025 SC Lite Edition ;
 ; Revision Name                   ; oscilatorRing                                   ;
 ; Top-level Entity Name           ; ringsManager                                    ;
@@ -149,12 +149,12 @@ on the Quartus Prime software download page.
 ; Number detected on machine ; 12          ;
 ; Maximum allowed            ; 8           ;
 ;                            ;             ;
-; Average used               ; 1.00        ;
+; Average used               ; 1.01        ;
 ; Maximum used               ; 8           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.2%      ;
+;     Processor 2            ;   0.3%      ;
 ;     Processors 3-8         ;   0.0%      ;
 +----------------------------+-------------+
 
@@ -197,7 +197,7 @@ on the Quartus Prime software download page.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in /home/rodizio/projects/oscilatorRing/output_files/oscilatorRing.pin.
+The pin-out file can be found in /home/rodizio/projects/ringOscilator/code/output_files/oscilatorRing.pin.
 
 
 +------------------------------------------------------------------------------------------+
@@ -231,7 +231,7 @@ The pin-out file can be found in /home/rodizio/projects/oscilatorRing/output_fil
 ;     -- 5 input functions                                    ; 0                  ;       ;
 ;     -- 4 input functions                                    ; 0                  ;       ;
 ;     -- <=3 input functions                                  ; 11                 ;       ;
-; Combinational ALUT usage for route-throughs                 ; 3                  ;       ;
+; Combinational ALUT usage for route-throughs                 ; 0                  ;       ;
 ;                                                             ;                    ;       ;
 ; Dedicated logic registers                                   ; 1                  ;       ;
 ;     -- By type:                                             ;                    ;       ;
@@ -305,7 +305,7 @@ The pin-out file can be found in /home/rodizio/projects/oscilatorRing/output_fil
 ;     -- 5 input functions                                    ; 0                   ; 0                              ;
 ;     -- 4 input functions                                    ; 0                   ; 0                              ;
 ;     -- <=3 input functions                                  ; 11                  ; 0                              ;
-; Combinational ALUT usage for route-throughs                 ; 3                   ; 0                              ;
+; Combinational ALUT usage for route-throughs                 ; 0                   ; 0                              ;
 ; Memory ALUT usage                                           ; 0                   ; 0                              ;
 ;     -- 64-address deep                                      ; 0                   ; 0                              ;
 ;     -- 32-address deep                                      ; 0                   ; 0                              ;
@@ -1090,21 +1090,21 @@ Info (184021): Fitter periphery placement operations ending: elapsed time is 00:
 Info (176233): Starting register packing
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'oscilatorRing.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332144): No user constrained base clocks found in the design
-Warning (332125): Found combinational loop of 6 nodes File: /home/rodizio/projects/oscilatorRing/oscilatorRing.vhd Line: 13
+Warning (332125): Found combinational loop of 6 nodes File: /home/rodizio/projects/ringOscilator/code/oscilatorRing.vhd Line: 13
     Warning (332126): Node "\genRings:2:oscRing|step[2]|combout"
     Warning (332126): Node "\genRings:2:oscRing|step[0]|dataa"
     Warning (332126): Node "\genRings:2:oscRing|step[0]|combout"
     Warning (332126): Node "\genRings:2:oscRing|step[1]|dataa"
     Warning (332126): Node "\genRings:2:oscRing|step[1]|combout"
     Warning (332126): Node "\genRings:2:oscRing|step[2]|dataa"
-Warning (332125): Found combinational loop of 6 nodes File: /home/rodizio/projects/oscilatorRing/oscilatorRing.vhd Line: 13
+Warning (332125): Found combinational loop of 6 nodes File: /home/rodizio/projects/ringOscilator/code/oscilatorRing.vhd Line: 13
     Warning (332126): Node "\genRings:1:oscRing|step[2]|combout"
     Warning (332126): Node "\genRings:1:oscRing|step[0]|dataa"
     Warning (332126): Node "\genRings:1:oscRing|step[0]|combout"
     Warning (332126): Node "\genRings:1:oscRing|step[1]|dataa"
     Warning (332126): Node "\genRings:1:oscRing|step[1]|combout"
     Warning (332126): Node "\genRings:1:oscRing|step[2]|dataa"
-Warning (332125): Found combinational loop of 6 nodes File: /home/rodizio/projects/oscilatorRing/oscilatorRing.vhd Line: 13
+Warning (332125): Found combinational loop of 6 nodes File: /home/rodizio/projects/ringOscilator/code/oscilatorRing.vhd Line: 13
     Warning (332126): Node "\genRings:0:oscRing|step[2]|combout"
     Warning (332126): Node "\genRings:0:oscRing|step[0]|dataa"
     Warning (332126): Node "\genRings:0:oscRing|step[0]|combout"
@@ -1130,16 +1130,16 @@ Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.09 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.08 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:02
-Info (144001): Generated suppressed messages file /home/rodizio/projects/oscilatorRing/output_files/oscilatorRing.fit.smsg
+Info (144001): Generated suppressed messages file /home/rodizio/projects/ringOscilator/code/output_files/oscilatorRing.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 26 warnings
-    Info: Peak virtual memory: 2035 megabytes
-    Info: Processing ended: Wed Aug 26 17:47:44 2026
+    Info: Peak virtual memory: 2019 megabytes
+    Info: Processing ended: Thu Aug 27 11:17:58 2026
     Info: Elapsed time: 00:00:08
     Info: Total CPU time (on all processors): 00:00:18
 
@@ -1147,6 +1147,6 @@ Info: Quartus Prime Fitter was successful. 0 errors, 26 warnings
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in /home/rodizio/projects/oscilatorRing/output_files/oscilatorRing.fit.smsg.
+The suppressed messages can be found in /home/rodizio/projects/ringOscilator/code/output_files/oscilatorRing.fit.smsg.
 
 

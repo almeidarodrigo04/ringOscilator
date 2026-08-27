@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition"
 
--- DATE "08/26/2026 17:47:51"
+-- DATE "08/27/2026 11:18:05"
 
 -- 
 -- Device: Altera 5CEBA4F23C7 Package FBGA484
@@ -115,12 +115,12 @@ PORT MAP (
 -- Location: LABCELL_X53_Y17_N33
 \genRings:1:oscRing|step[0]\ : cyclonev_lcell_comb
 -- Equation(s):
--- \genRings:1:oscRing|step\(0) = LCELL(( \genRings:1:oscRing|step\(2) ))
+-- \genRings:1:oscRing|step\(0) = LCELL(( !\genRings:1:oscRing|step\(2) ))
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0000000000000000000000000000000011111111111111111111111111111111",
+	lut_mask => "1111111111111111111111111111111100000000000000000000000000000000",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
@@ -160,12 +160,12 @@ PORT MAP (
 -- Location: LABCELL_X53_Y17_N27
 \genRings:2:oscRing|step[0]\ : cyclonev_lcell_comb
 -- Equation(s):
--- \genRings:2:oscRing|step\(0) = LCELL(( \genRings:2:oscRing|step\(2) ))
+-- \genRings:2:oscRing|step\(0) = LCELL(( !\genRings:2:oscRing|step\(2) ))
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0000000000000000000000000000000011111111111111111111111111111111",
+	lut_mask => "1111111111111111111111111111111100000000000000000000000000000000",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
@@ -205,12 +205,12 @@ PORT MAP (
 -- Location: LABCELL_X53_Y17_N24
 \genRings:0:oscRing|step[0]\ : cyclonev_lcell_comb
 -- Equation(s):
--- \genRings:0:oscRing|step\(0) = LCELL(( \genRings:0:oscRing|step\(2) ))
+-- \genRings:0:oscRing|step\(0) = LCELL(( !\genRings:0:oscRing|step\(2) ))
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0000000000000000000000000000000011111111111111111111111111111111",
+	lut_mask => "1111111111111111111111111111111100000000000000000000000000000000",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (

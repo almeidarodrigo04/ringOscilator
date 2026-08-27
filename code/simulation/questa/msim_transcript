@@ -1,4 +1,92 @@
+# //  Questa Altera Starter FPGA Edition-64
+# //  Version 2025.2 linux_x86_64 May 31 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do oscilatorRing_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Altera Starter FPGA Edition-64 vmap 2025.2 Lib Mapping Utility 2025.05 May 31 2025
+# vmap work rtl_work 
+# ** Note: (vmap-220) '/home/rodizio/altera_lite/25.1std/questa_fse/linux_x86_64/../modelsim.ini' is used as the ini file.
+# Copying /home/rodizio/altera_lite/25.1std/questa_fse/linux_x86_64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
 # 
-# ** License Issue: License server does not support this feature (intelqsimstarter)
-# ** License Issue: Invalid host. (/home/rodizio/.altera.quartus/questa_lic.dat)
-# ** Error: Failure to checkout 'intelqsimstarter' license feature.
+# vcom -93 -work work {/home/rodizio/projects/ringOscilator/code/oscilatorRing.vhd}
+# Questa Altera Starter FPGA Edition-64 vcom 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 10:56:35 on Aug 27,2026
+# vcom -reportprogress 300 -93 -work work /home/rodizio/projects/ringOscilator/code/oscilatorRing.vhd 
+# ** Note: (vcom-220) 'modelsim.ini' is used as the ini file.
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity oscilatorRing
+# -- Compiling architecture behaviour of oscilatorRing
+# ** Warning: /home/rodizio/projects/ringOscilator/code/oscilatorRing.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /home/rodizio/projects/ringOscilator/code/oscilatorRing.vhd(23): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 10:56:35 on Aug 27,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vcom -93 -work work {/home/rodizio/projects/ringOscilator/code/ringsManager.vhd}
+# Questa Altera Starter FPGA Edition-64 vcom 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 10:56:35 on Aug 27,2026
+# vcom -reportprogress 300 -93 -work work /home/rodizio/projects/ringOscilator/code/ringsManager.vhd 
+# ** Note: (vcom-220) 'modelsim.ini' is used as the ini file.
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ringsManager
+# -- Compiling architecture behaviour of ringsManager
+# -- Loading entity oscilatorRing
+# End time: 10:56:35 on Aug 27,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.ringsmanager
+# ** Note: (vsim-220) 'modelsim.ini' is used as the ini file.
+# vsim work.ringsmanager 
+# Start time: 10:56:41 on Aug 27,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-220) 'modelsim.ini' is used as the ini file.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading synopsys.attributes
+# Loading ieee.std_logic_misc(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ringsmanager(behaviour)#1
+add wave -position end  sim:/ringsmanager/clk
+add wave -position end  sim:/ringsmanager/output
+add wave -position end  sim:/ringsmanager/ringsOut
+force -freeze sim:/ringsmanager/clk 1 0, 0 {12 ns} -r 25
+force -freeze sim:/ringsmanager/output 1 0, 0 {12 ns} -r 25
+force -freeze sim:/ringsmanager/ringsOut 1 0, 0 {12 ns} -r 25
+force -freeze sim:/ringsmanager/ringsOut(2) 1 0, 0 {12 ns} -r 25
+force -freeze sim:/ringsmanager/ringsOut(1) 1 0, 0 {12 ns} -r 25
+force -freeze sim:/ringsmanager/ringsOut(0) 1 0, 0 {12 ns} -r 25
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

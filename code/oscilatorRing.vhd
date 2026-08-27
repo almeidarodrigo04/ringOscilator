@@ -18,7 +18,7 @@ architecture behaviour of oscilatorRing is
 	
 	begin
 	
-		step(0) <= step(NNOTS-1);
+		step(0) <= not step(NNOTS-1);
 		lnots: for i in 1 to NNOTS-1 generate
 			step(i) <= not step(i-1);
 		end generate lnots;

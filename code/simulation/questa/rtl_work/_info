@@ -1,0 +1,120 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11e vcom 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/rodizio/projects/ringOscilator/code/simulation/questa
+T_opt
+!i145 1
+!i144 0
+!s110 1787839001
+VYV71M6CCIzShKYcfIS>`41
+04 12 9 work ringsmanager behaviour 1
+=1-a2384d6f06af-6a904219-37346-1c59e
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U4 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;2025.2;82
+Eoscilatorring
+Z2 w1787838934
+Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R1
+Z6 8/home/rodizio/projects/ringOscilator/code/oscilatorRing.vhd
+Z7 F/home/rodizio/projects/ringOscilator/code/oscilatorRing.vhd
+l0
+L5 1
+VnQa[eJ`hK6gN0HNW09o5]2
+!s100 mkRDo6ZM1;=PdXJZ<>kdT2
+Z8 OL;C;2025.2;82
+31
+Z9 !s110 1787838995
+!i10b 1
+Z10 !s108 1787838995.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|/home/rodizio/projects/ringOscilator/code/oscilatorRing.vhd|
+Z12 !s107 /home/rodizio/projects/ringOscilator/code/oscilatorRing.vhd|
+!i113 0
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
+Abehaviour
+R3
+R4
+R5
+Z15 DEx4 work 13 oscilatorring 0 22 nQa[eJ`hK6gN0HNW09o5]2
+!i122 0
+l19
+L12 16
+VL10YgnC[JLUn[Khmon`gN0
+!s100 bUbe[K4zfJVjY76jaYbG@2
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Eringsmanager
+Z16 w1787777162
+R3
+Z17 DPx8 synopsys 10 attributes 0 22 iThS5<O8gHDP?YiMiccE>3
+R4
+R5
+Z18 DPx4 ieee 14 std_logic_misc 0 22 T3<OAQk@7zOVj;_ZQ8ClU2
+!i122 1
+R1
+Z19 8/home/rodizio/projects/ringOscilator/code/ringsManager.vhd
+Z20 F/home/rodizio/projects/ringOscilator/code/ringsManager.vhd
+l0
+L6 1
+VLDzkXKT0m7XfY0V>AzOl51
+!s100 LjQ96h`?dSgU3g<1F7GKi2
+R8
+31
+R9
+!i10b 1
+R10
+Z21 !s90 -reportprogress|300|-93|-work|work|/home/rodizio/projects/ringOscilator/code/ringsManager.vhd|
+Z22 !s107 /home/rodizio/projects/ringOscilator/code/ringsManager.vhd|
+!i113 0
+R13
+R14
+Abehaviour
+R15
+R3
+R17
+R4
+R5
+R18
+DEx4 work 12 ringsmanager 0 22 LDzkXKT0m7XfY0V>AzOl51
+!i122 1
+l18
+L14 18
+VddVFSTYQESiNFLX1iVeJA3
+!s100 IWa>ik03eSiHhGMH8:5Rz0
+R8
+31
+R9
+!i10b 1
+R10
+R21
+R22
+!i113 0
+R13
+R14

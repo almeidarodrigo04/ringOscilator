@@ -1,0 +1,43 @@
+[N
+6
+1
+68 /home/rodizio/projects/ringOscilator/code/simulation/questa/rtl_work
+5
+12 ringsmanager
+2
+13 oscilatorring
+4
+5 NNOTS
+6
+6 NRINGS
+3
+9 behaviour
+]
+[G
+1
+2
+3
+1
+4
+1
+0
+3
+0
+0 0
+0
+0
+]
+[G
+1
+5
+3
+1
+6
+1
+0
+3
+0
+0 0
+0
+0
+]
