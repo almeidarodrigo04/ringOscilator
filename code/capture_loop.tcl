@@ -17,7 +17,7 @@
 # AJUSTE ESTES 3 VALORES conforme o que você configurou no capture_buffer:
 # --------------------------------------------------------------------
 set CONTROL_ADDR   0x0
-set BUFFER_BASE    0x2000   ;# = 2^BUFFER_ADDR_BITS (bit de seleção memória)
+set BUFFER_BASE    0x8000   ;# = 2^BUFFER_ADDR_BITS (bit de seleção memória)
 set BUFFER_SIZE    8192     ;# quantidade de palavras/bytes no buffer
 set READ_CHUNK     1024     ;# quantas palavras ler por chamada (evita 1 chamada gigante)
 set NUM_CAPTURAS   50       ;# quantas rodadas de captura fazer (ajuste ao volume de dados desejado)
