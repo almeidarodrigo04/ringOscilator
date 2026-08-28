@@ -1,0 +1,9 @@
+	component jtag_bridge_system is
+		port (
+			capture_buffer_0_conduit_end_data_in    : in std_logic_vector(7 downto 0) := (others => 'X'); -- data_in
+			capture_buffer_0_conduit_end_data_valid : in std_logic                    := 'X';             -- data_valid
+			clk_clk                                 : in std_logic                    := 'X';             -- clk
+			reset_reset_n                           : in std_logic                    := 'X'              -- reset_n
+		);
+	end component jtag_bridge_system;
+

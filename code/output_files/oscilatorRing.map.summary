@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Thu Aug 27 11:17:49 2026
+Analysis & Synthesis Status : Successful - Fri Aug 28 03:38:22 2026
 Quartus Prime Version : 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 Revision Name : oscilatorRing
-Top-level Entity Name : ringsManager
+Top-level Entity Name : top
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 1
-Total pins : 2
+Total registers : 560
+Total pins : 1
 Total virtual pins : 0
-Total block memory bits : 0
+Total block memory bits : 66,048
 Total DSP Blocks : 0
 Total HSSI RX PCSs : 0
 Total HSSI PMA RX Deserializers : 0
