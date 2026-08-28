@@ -19,7 +19,7 @@ architecture behaviour of ringsManager is
 	begin
 		
 		genRings: for i in 0 to NRINGS-1 generate
-			oscRing: entity work.oscilatorRing port map(output => ringsOut(i));
+			oscRing: entity work.oscilatorRing generic map(NNOTS => 13 + 2*i) port map(output => ringsOut(i));
 		end generate genRings;
 		
 		process(clk)
