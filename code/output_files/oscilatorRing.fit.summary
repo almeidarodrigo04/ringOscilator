@@ -1,12 +1,12 @@
-Fitter Status : Successful - Fri Aug 28 03:38:39 2026
-Quartus Prime Version : 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
+Fitter Status : Successful - Fri Aug 28 05:48:56 2026
+Quartus Prime Version : 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 Revision Name : oscilatorRing
 Top-level Entity Name : top
 Family : Cyclone V
 Device : 5CEBA4F23C7
 Timing Models : Final
-Logic utilization (in ALMs) : 430 / 18,480 ( 2 % )
-Total registers : 604
+Logic utilization (in ALMs) : 1,179 / 18,480 ( 6 % )
+Total registers : 710
 Total pins : 1 / 224 ( < 1 % )
 Total virtual pins : 0
 Total block memory bits : 66,048 / 3,153,920 ( 2 % )

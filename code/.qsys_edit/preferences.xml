@@ -7,8 +7,7 @@
    <irq preferredWidth="34" />
   </columns>
  </systemtable>
- <library
-   expandedCategories="Library/Basic Functions/Simulation; Debug and Verification/Debug and Performance,Library/Basic Functions/Simulation; Debug and Verification,Library/Basic Functions/Bridges and Adaptors/Memory Mapped,Project,Library/Interface Protocols,Library/Basic Functions/Bridges and Adaptors,Library/Basic Functions,Library,Library/Interface Protocols/Serial" />
+ <library expandedCategories="Library,Project" />
  <window width="1140" height="799" x="582" y="182" />
  <generation synthesis="VHDL" />
 </preferences>

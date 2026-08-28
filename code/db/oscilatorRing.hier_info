@@ -17,6 +17,120 @@ clk => jtag_bridge_system:bridge_sys_inst.clk_clk
 
 |top|ringsManager:rings_inst
 clk => output~reg0.CLK
+clk => ringsSync[0].CLK
+clk => ringsSync[1].CLK
+clk => ringsSync[2].CLK
+clk => ringsSync[3].CLK
+clk => ringsSync[4].CLK
+clk => ringsSync[5].CLK
+clk => ringsSync[6].CLK
+clk => ringsSync[7].CLK
+clk => ringsSync[8].CLK
+clk => ringsSync[9].CLK
+clk => ringsSync[10].CLK
+clk => ringsSync[11].CLK
+clk => ringsSync[12].CLK
+clk => ringsSync[13].CLK
+clk => ringsSync[14].CLK
+clk => ringsSync[15].CLK
+clk => ringsSync[16].CLK
+clk => ringsSync[17].CLK
+clk => ringsSync[18].CLK
+clk => ringsSync[19].CLK
+clk => ringsSync[20].CLK
+clk => ringsSync[21].CLK
+clk => ringsSync[22].CLK
+clk => ringsSync[23].CLK
+clk => ringsSync[24].CLK
+clk => ringsSync[25].CLK
+clk => ringsSync[26].CLK
+clk => ringsSync[27].CLK
+clk => ringsSync[28].CLK
+clk => ringsSync[29].CLK
+clk => ringsSync[30].CLK
+clk => ringsSync[31].CLK
+clk => ringsSync[32].CLK
+clk => ringsSync[33].CLK
+clk => ringsSync[34].CLK
+clk => ringsSync[35].CLK
+clk => ringsSync[36].CLK
+clk => ringsSync[37].CLK
+clk => ringsSync[38].CLK
+clk => ringsSync[39].CLK
+clk => ringsSync[40].CLK
+clk => ringsSync[41].CLK
+clk => ringsSync[42].CLK
+clk => ringsSync[43].CLK
+clk => ringsSync[44].CLK
+clk => ringsSync[45].CLK
+clk => ringsSync[46].CLK
+clk => ringsSync[47].CLK
+clk => ringsSync[48].CLK
+clk => ringsSync[49].CLK
+clk => ringsSync[50].CLK
+clk => ringsSync[51].CLK
+clk => ringsSync[52].CLK
+clk => ringsSync[53].CLK
+clk => ringsSync[54].CLK
+clk => ringsSync[55].CLK
+clk => ringsSync[56].CLK
+clk => ringsSync[57].CLK
+clk => ringsSync[58].CLK
+clk => ringsSync[59].CLK
+clk => ringsSync[60].CLK
+clk => ringsSync[61].CLK
+clk => ringsSync[62].CLK
+clk => ringsSync[63].CLK
+clk => ringsSync[64].CLK
+clk => ringsSync[65].CLK
+clk => ringsSync[66].CLK
+clk => ringsSync[67].CLK
+clk => ringsSync[68].CLK
+clk => ringsSync[69].CLK
+clk => ringsSync[70].CLK
+clk => ringsSync[71].CLK
+clk => ringsSync[72].CLK
+clk => ringsSync[73].CLK
+clk => ringsSync[74].CLK
+clk => ringsSync[75].CLK
+clk => ringsSync[76].CLK
+clk => ringsSync[77].CLK
+clk => ringsSync[78].CLK
+clk => ringsSync[79].CLK
+clk => ringsSync[80].CLK
+clk => ringsSync[81].CLK
+clk => ringsSync[82].CLK
+clk => ringsSync[83].CLK
+clk => ringsSync[84].CLK
+clk => ringsSync[85].CLK
+clk => ringsSync[86].CLK
+clk => ringsSync[87].CLK
+clk => ringsSync[88].CLK
+clk => ringsSync[89].CLK
+clk => ringsSync[90].CLK
+clk => ringsSync[91].CLK
+clk => ringsSync[92].CLK
+clk => ringsSync[93].CLK
+clk => ringsSync[94].CLK
+clk => ringsSync[95].CLK
+clk => ringsSync[96].CLK
+clk => ringsSync[97].CLK
+clk => ringsSync[98].CLK
+clk => ringsSync[99].CLK
+clk => ringsSync[100].CLK
+clk => ringsSync[101].CLK
+clk => ringsSync[102].CLK
+clk => ringsSync[103].CLK
+clk => ringsSync[104].CLK
+clk => ringsSync[105].CLK
+clk => ringsSync[106].CLK
+clk => ringsSync[107].CLK
+clk => ringsSync[108].CLK
+clk => ringsSync[109].CLK
+clk => ringsSync[110].CLK
+clk => ringsSync[111].CLK
+clk => ringsSync[112].CLK
+clk => ringsSync[113].CLK
 output <= output~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
@@ -29,6 +143,450 @@ output <= output.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |top|ringsManager:rings_inst|oscilatorRing:\genRings:2:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:3:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:4:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:5:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:6:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:7:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:8:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:9:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:10:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:11:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:12:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:13:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:14:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:15:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:16:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:17:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:18:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:19:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:20:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:21:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:22:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:23:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:24:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:25:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:26:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:27:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:28:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:29:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:30:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:31:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:32:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:33:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:34:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:35:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:36:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:37:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:38:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:39:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:40:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:41:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:42:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:43:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:44:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:45:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:46:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:47:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:48:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:49:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:50:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:51:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:52:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:53:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:54:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:55:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:56:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:57:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:58:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:59:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:60:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:61:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:62:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:63:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:64:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:65:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:66:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:67:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:68:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:69:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:70:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:71:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:72:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:73:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:74:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:75:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:76:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:77:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:78:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:79:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:80:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:81:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:82:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:83:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:84:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:85:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:86:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:87:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:88:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:89:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:90:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:91:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:92:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:93:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:94:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:95:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:96:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:97:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:98:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:99:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:100:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:101:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:102:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:103:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:104:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:105:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:106:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:107:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:108:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:109:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:110:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:111:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:112:oscRing
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|ringsManager:rings_inst|oscilatorRing:\genRings:113:oscRing
 output <= output.DB_MAX_OUTPUT_PORT_TYPE
 
 

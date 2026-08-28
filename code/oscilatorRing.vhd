@@ -4,7 +4,7 @@ use ieee.numeric_std.all;
 
 entity oscilatorRing is
 	generic(
-		NNOTS : integer := 3);
+		NNOTS : integer := 13);
 	port(
 		output: out std_logic);
 end entity;
