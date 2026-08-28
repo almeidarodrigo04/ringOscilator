@@ -20,7 +20,7 @@ set CONTROL_ADDR   0x0
 set BUFFER_BASE    0x2000   ;# = 2^BUFFER_ADDR_BITS (bit de seleção memória)
 set BUFFER_SIZE    8192     ;# quantidade de palavras/bytes no buffer
 set READ_CHUNK     1024     ;# quantas palavras ler por chamada (evita 1 chamada gigante)
-set NUM_CAPTURAS   500       ;# quantas rodadas de captura fazer (ajuste ao volume de dados desejado)
+set NUM_CAPTURAS   50       ;# quantas rodadas de captura fazer (ajuste ao volume de dados desejado)
 set OUTPUT_FILE    "trng_log.txt"
 set BITS_POR_LINHA 64       ;# quebra de linha a cada N bits, só para o arquivo ficar legível (0 = sem quebra)
 
@@ -35,6 +35,41 @@ if {[llength $master_paths] == 0} {
 set mfd [lindex $master_paths 0]
 open_service master $mfd
 puts "Conectado ao master: $mfd"
+
+# --------------------------------------------------------------------
+# DIAGNÓSTICO: confirma se BUFFER_BASE está caindo mesmo na memória
+# (e não sendo relido como o registrador de controle, por causa de
+# "Address units" configurado como SYMBOLS em vez de WORDS no
+# Component Editor). Roda automaticamente antes do loop principal.
+# --------------------------------------------------------------------
+puts "--- Diagnóstico de endereçamento ---"
+
+master_write_32 $mfd $CONTROL_ADDR 0x1
+set done 0
+while {!$done} {
+    set status [master_read_32 $mfd $CONTROL_ADDR 1]
+    if {[expr {[lindex $status 0] & 0x2}] != 0} { set done 1 }
+}
+set ctrlVal [lindex [master_read_32 $mfd $CONTROL_ADDR 1] 0]
+puts "  Registrador de controle (endereço $CONTROL_ADDR) apos captura: $ctrlVal (esperado: 2 = done, sem capturar)"
+
+set memTestBase [master_read_32 $mfd $BUFFER_BASE 4]
+puts "  Primeiras 4 palavras lidas em BUFFER_BASE ($BUFFER_BASE): $memTestBase"
+
+set memTestScaled [master_read_32 $mfd [expr {$BUFFER_BASE * 4}] 4]
+puts "  Primeiras 4 palavras lidas em BUFFER_BASE*4 ([expr {$BUFFER_BASE * 4}]): $memTestScaled"
+
+if {[lindex $memTestBase 0] == $ctrlVal && [lindex $memTestBase 1] == $ctrlVal} {
+    puts "  AVISO: os valores em BUFFER_BASE são iguais ao registrador de controle ($ctrlVal repetido)."
+    puts "  Isso indica que o endereço não está de fato alcançando a memória -- muito provavelmente"
+    puts "  'Address units' está como SYMBOLS em vez de WORDS no capture_buffer (ver Component Editor)."
+    puts "  Compare com a linha 'BUFFER_BASE*4' acima: se ELA variar/parecer dado real do TRNG,"
+    puts "  troque BUFFER_BASE para [expr {$BUFFER_BASE * 4}] neste script e rode de novo."
+} else {
+    puts "  OK: os valores em BUFFER_BASE parecem distintos do registrador de controle."
+}
+puts "--- Fim do diagnóstico ---"
+puts ""
 
 set fp [open $OUTPUT_FILE "w"]
 set bitsEscritos 0
